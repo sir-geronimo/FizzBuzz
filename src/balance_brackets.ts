@@ -17,9 +17,7 @@ function isValid(str: string): boolean {
     }
 
     if (isClosing) {
-      const matchesPrevious = brackets[char] === parens.pop()
-      
-      return matchesPrevious
+      return brackets[char] === parens.pop() // Matches Previous
     }
   }
 
