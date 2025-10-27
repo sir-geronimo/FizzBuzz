@@ -11,11 +11,11 @@
     "sourceMap": true,
     "sourceRoot": "/",
     "inlineSources": true,
-    "baseUrl": ".",
+    "baseUrl": "..",
     "outDir": "dist/",
     "types": [
       "jest",
-      "node",
+      "node"
     ],
     "paths": {
       "@/*": [
@@ -28,12 +28,12 @@
     "lib": [
       "esnext",
       "dom",
-      "dom.iterable",
+      "dom.iterable"
     ]
   },
   "include": [
-    "src/**/*.ts",
-    "tests/**/*.ts",
+    "typescript/src/**/*.ts",
+    "tests/**/*.ts"
   ],
   "exclude": [
     "node_modules"
